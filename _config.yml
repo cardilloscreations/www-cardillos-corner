@@ -95,16 +95,12 @@ portfolio:
     categories: [Salon]
     image: cardillos-salon-portfolio-image.jpg
     url: "https://cardillos.salon"
-    ext-icon: "fa-brands fa-youtube"
-    ext-url: "https://www.youtube.com/@CardillosSalon"
 
   # Portfolio Item
   - title: <span title="Cardillo's Ink">C<span class="thin">ardillo's</span> I<span class="thin">nk</span></span>
     categories: [Tattoo]
     image: cardillos-ink-portfolio-image.jpg
     url: "https://cardillos.ink"
-    ext-icon: "fa-brands fa-youtube"
-    ext-url: "https://www.youtube.com/channel/@cardillos.ink"
 
 #####################################
 #############   Footer   ############
