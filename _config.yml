@@ -1,0 +1,114 @@
+#
+# Sera - OnePage Jekyll Theme
+# Configuration File
+#
+
+# Information for compile
+exclude: ["Gemfile", "CNAME", "LICENSE", "README.md", "AUTHORING.md"]
+
+# Sass configuration
+sass:
+  sass_dir: _scss
+
+# Information for deploy
+baseurl: ""
+
+# the base hostname & protocol for your site
+url: "https://cardilloscorner.com"
+
+####################################
+######   Optional Features    ######
+####################################
+smooth-scroll: false
+
+####################################
+###########   Plugins    ###########
+####################################
+plugins:
+  - jekyll-archives
+
+jekyll-archives:
+  enabled:
+    - categories
+    - tags
+  layout: "archive"
+  permalinks:
+    category: "/category/:name/"
+    tag: "/tag/:name/"
+
+#######################################################
+#######################################################
+###############   HEADER INFORMATION   ###############
+#######################################################
+#######################################################
+
+# This is your site title
+title: Cardillo's Corner
+# Website language
+lang: en-US
+# Header Title
+header-title: Cardillo's Corner
+# Header Tagline
+header-tagline: Ray & Lisa - Cardillo's Corner
+
+#
+# This is your email adress, contact from send here all emails from contact section
+# IMPORTANT: you can modify contact form from this static template, but now works contact form works with a free external server
+# To configure this contact form, first please send a fictive email afeter you enter below your email and verify that :)
+#
+email: hello@cardilloscorner.com
+
+####################################
+######  Global Social Links   ######
+####################################
+facebook: "https://www.facebook.com/CardillosCorner/"
+instagram: "https://www.instagram.com/cardilloscorner/"
+
+#########################
+######   Widgets   ######
+#########################
+
+#####################################
+#############   About   #############
+#####################################
+about-title: About Us
+about-description-short: Cardillo's Corner is owned by Ray & Lisa Cardillo.
+about-description-long: >
+  Ray & Lisa Cardillo are a husband and wife team that work out of the same location.
+  Lisa is a master hair stylist and Ray is a tatoo artist.
+
+#####################################
+############  Portfolio  ############
+#####################################
+portfolio-title: Shops
+portfolio-description: >
+  Click the images below to visit the shop websites.
+
+#
+# Portfolio Grid
+#
+portfolio-categories:
+  [Salon, Tattoo]
+portfolio:
+  # Portfolio Item
+  - title: <span title="Cardillo's Salon">C<span class="thin">ardillo's</span> S<span class="thin">alon</span></span>
+    categories: [Salon]
+    image: cardillos-salon-portfolio-image.jpg
+    url: "https://cardillos.salon"
+    ext-icon: "fa-brands fa-youtube"
+    ext-url: "https://www.youtube.com/@CardillosSalon"
+
+  # Portfolio Item
+  - title: <span title="Cardillo's Ink">C<span class="thin">ardillo's</span> I<span class="thin">nk</span></span>
+    categories: [Tattoo]
+    image: cardillos-ink-portfolio-image.jpg
+    url: "https://cardillos.ink"
+    ext-icon: "fa-brands fa-youtube"
+    ext-url: "https://www.youtube.com/channel/@cardillos.ink"
+
+#####################################
+#############   Footer   ############
+#####################################
+footer-description: Find Cardillo's Corner on all of your favorite sites.
+footer-copyright-text: Cardillo's Corner, LLC
+footer-copyright-year: 2022
